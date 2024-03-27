@@ -1,14 +1,11 @@
-const buy = getElementById("btn1");
+const buttonOne = getElementById("btn1");
+const buttonTwo = getElementById("btn2");
 
-let products =["Nike Shoes","Nike Shorts","Nike socks"];
-let price =["$160","$55","$28"];
-
-buy.addEventListner("click",(e)) = > {
-  console.log("e: ",e);
-for (let i = 0; i < products.length; i++){
-  let currentLi = document.createElement("li");
-  currentLi.textContent = products[i];
-  console.log(currentLi);
-  price.appendChild(currentLi);
-  }
+buttonOne.addEventListner("click", () =>{
+  console.log("JUST DO IT!");
+  alert("JUST DO IT!");
 });
+
+function contact(){
+  document.getElementById("contact").innerHTML = "318-687-4433";
+}
