@@ -1,3 +1,10 @@
+document.getElementById("myBtn").addEventListener("click", number);
+
+function number() {
+  alert ("JUST DO IT!");
+}
+
+
 const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
 const appendAlert = (message, type) => {
   const wrapper = document.createElement('div')
@@ -11,10 +18,10 @@ const appendAlert = (message, type) => {
   alertPlaceholder.append(wrapper)
 }
 
-const alertTrigger = document.getElementById('liveAlertbtn')
+const alertTrigger = document.getElementById('myBtn2')
 if (alertTrigger) {
   alertTrigger.addEventListener('click', () => {
-    appendAlert('Nice, you triggered this alert message!', 'success')
+    appendAlert('1122233344')
   })
 }
 
