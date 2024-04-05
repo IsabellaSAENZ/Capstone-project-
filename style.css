@@ -40,6 +40,10 @@ html {
   border-radius: 5px;
   color:red;
 }
+.card-img-top {
+  width: 50%;
+  height:50%;
+}
 
 #info {
   background-color:teal;

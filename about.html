@@ -9,31 +9,41 @@
   </head>
 
 <body>
-  <div id="nav">
-    <ol>
-    <li><a href ="index.html">Home</a></li>
-    <li><a href ="about.html">About</a></li>
-    </ol>
-  </div>
-
+  <ul class="nav">
+    <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+     </li>
+     <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+  </ul>
   <img id="logo" src="https://res.cloudinary.com/dmubfrefi/image/private/s--X0LLoOBX--/c_crop,h_2728,w_4090,x_334,y_0/f_auto/q_auto/v1/dee-about-cms-prod-medias/cf68f541-fc92-4373-91cb-086ae0fe2f88/002-nike-logos-swoosh-white.jpg?_a=BAAAROBs">
 
   <div class="Card">
     <img class="card-img-top" src="https://i0.wp.com/25iq.com/wp-content/uploads/2018/01/knight.png?fit=252%2C244&ssl=1">
-    <div class="Card-body">Philip Hanson Knight </div>
-    <div class="Card-footer">born February 24, 1938</div>
+    <div class="Card-title">Philip Hanson Knight </div>
+    <div class="Card-text">born February 24, 1938</div>
   </div>
 
-  <h2 id="founder">Our Founder</h2>
-
-  <p id="philip">Phillip Hanson Knight founded Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon, United States. It is the world's largest supplier of athletic shoes and apparel and a major manufacturer of sports equipment, with revenue in excess of US$46 billion in its fiscal year 2022.</p>
+   <div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <h2 id="founder" class="col-sm-4">Our Founder</h2>
+    </div>
+    <div class="col">
+      <p id="philip" class="col-sm-4">Phillip Hanson Knight founded Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon, United States. It is the world's largest supplier of athletic shoes and apparel and a major manufacturer of sports equipment, with revenue in excess of US$46 billion in its fiscal year 2022. </p>
+    </div>
+  </div>
+</div>
 
   <h2 id="info">About Us</h2>
 
   <p id="founders">Founders are Phil Knight and Bill Bowerman.We were founded January 25, 1964 in Eugene, OR.Our headquarters is located in Beaverton, OR. We are an athletic company focused on our quality and performance in our products.</p>
 
-  <button id="btn1">Our Motto </button> 
-  <button type="button" class="btn btn-info" id="btn2" onclick="contact()">Contact Us</button>
+  <button type="button" class="btn btn-primary">Our Motto </button> 
+  
+  <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
   
   <script src="script.js"></script>
 </body>

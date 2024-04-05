@@ -1,11 +1,20 @@
-const buttonOne = getElementById("btn1");
-const buttonTwo = getElementById("btn2");
+const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+const appendAlert = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
 
-buttonOne.addEventListner("click", () =>{
-  console.log("JUST DO IT!");
-  alert("JUST DO IT!");
-});
-
-function contact(){
-  document.getElementById("contact").innerHTML = "318-687-4433";
+  alertPlaceholder.append(wrapper)
 }
+
+const alertTrigger = document.getElementById('liveAlertbtn')
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', () => {
+    appendAlert('Nice, you triggered this alert message!', 'success')
+  })
+}
+
