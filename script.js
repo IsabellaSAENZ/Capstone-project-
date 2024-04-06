@@ -1,7 +1,7 @@
 document.getElementById("myBtn").addEventListener("click", number);
 
 function number() {
-  alert ("JUST DO IT!");
+  alert("JUST DO IT!");
 }
 
 
