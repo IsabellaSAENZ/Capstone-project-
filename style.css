@@ -60,3 +60,7 @@ html {
   color: green;
   border: solid;
 }
+#pick {
+  text-align: center;
+  margin:10%;
+}
