@@ -53,8 +53,10 @@ html {
 #info {
   background-color: teal;
   text-align: center;
+  margin: 10%;
 }
 
 #founders {
   color: green;
+  border: solid;
 }
