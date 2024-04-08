@@ -9,6 +9,21 @@ let array = [
     image: "Nike shoes.png",
     price: 67
   },
+  {
+    name: "shorts",
+    image: "Nike shorts.png",
+    price: "80",
+  },
+  {
+    name: "socks",
+    image: "Nike socks.png",
+    price: "22",
+  },
+  {
+   name: "Men shoes",
+   image: "Nike men.png",
+    price: "200",
+  },
 ];
 
 let products = document.getElementById("products");
